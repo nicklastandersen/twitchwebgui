@@ -1,5 +1,4 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
-</head>
 
-<h1>Stylesheet test</h1>
+<?php require_once 'inc/header.php';?>
+
+<?php require_once 'inc/footer.php';?>
