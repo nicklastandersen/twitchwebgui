@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: nicklasandersen
- * Date: 23/05/2016
- * Time: 23.23
- */
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+</head>
+
+<h1>Stylesheet test</h1>
