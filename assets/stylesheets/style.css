@@ -9213,3 +9213,7 @@ button.close {
     display: none !important;
   }
 }
+/* line 2, ../sass/layout/_layout.scss */
+.site-branding h1 {
+  text-align: center;
+}
