@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Twitch Interface
 
 [PHP] Twitch Interface
@@ -182,3 +183,11 @@ For any information about the interface, please look in the module list below (Y
 | [getVideo_channel()](https://github.com/IBurn36360/Twitch_Interface/blob/master/Modules/videos.md#getvideo_channel) | Returns the video objects of the given channel. |
 | [getVideo_followed()](https://github.com/IBurn36360/Twitch_Interface/blob/master/Modules/videos.md#getvideo_followed) | Grabs all videos for all channels a user is following. |
 | [getTopVideos()](https://github.com/IBurn36360/Twitch_Interface/blob/master/Modules/videos.md#gettopvideos) | Gets a list of the top viewed videos by the sorting parameters. |
+=======
+# twitchwebgui
+
+A Twitch Web GUI build in PHP for using with Twitch API. 
+
+Build on Bootstrap CSS and JS.
+
+>>>>>>> 82239e5b324847a053d9aa9a80d0561bf3b39f75
