@@ -1,0 +1,10 @@
+@import "variables";
+
+body {
+  padding: 220px 15px 30px;
+  background-color: rgba(232, 232, 232, 0.21);
+}
+
+a {
+  color: $links-color;
+}

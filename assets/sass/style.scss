@@ -15,10 +15,16 @@ Images License: GNU General Public License v2 or later
 
 @import "bootstrap";
 
+// Base styles.
+
+@import "base/base";
+
 // Layouts
 
 @import "layout/layout";
 
 
+// Menu / Navigation bar
 
+@import "components/menu";
 

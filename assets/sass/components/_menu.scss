@@ -1,0 +1,29 @@
+@import "../base/variables";
+
+#service-menu {
+  .navbar {
+    background-color: $servicemenu-color;
+    margin-bottom: 5px;
+    border-radius: 0;
+  }
+  .navbar-nav {
+    li {
+      a {
+        color: #fff;
+        &:hover {
+          color: $links-color;
+        }
+      }
+    }
+  }
+  li {
+    display: inline-block;
+  }
+}
+
+.menu-inline {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

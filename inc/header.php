@@ -14,13 +14,30 @@ require_once 'functions.php';
 </head>
 
 <body>
-<header>
+
+<header id="header" class="site-header">
+
+    <div id="service-menu">
+        <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="row">
+                        <ul class="nav navbar-nav menu-inline">
+                            <li><a href="index.php">About Us<span class="sr-only">(current)</span></a></li>
+                            <li><a href="profile.php">Log In</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="site-branding">
                 <h1><?php echo $pagename;?></h1>
             </div>
 
+          <div class="primary-menu">
             <nav class="navbar navbar-default">
 
                 <div class="container-fluid">
@@ -45,7 +62,9 @@ require_once 'functions.php';
                     </div><!-- /.navbar-collapse -->
                 </div>
             </nav>
-
+          </div>
         </div>
     </div>
 </header>
+
+<main id="main">
