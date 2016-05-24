@@ -16,8 +16,11 @@
   transition: all .15s ease;
 }
 
+#header.sticky {
+  margin-top: -52px
+}
+
 .site-branding {
-  margin: 0 0 25px 0;
   h1 {
     text-align: center;
   }

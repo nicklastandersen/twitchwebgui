@@ -21,9 +21,26 @@
   }
 }
 
+#primary-menu {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    .active {
+      a {
+        border-radius: 20px;
+      }
+    }
+  }
+  .navbar {
+    margin-bottom: 9px;
+  }
+}
+
+
 .menu-inline {
   position: relative;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+

@@ -9242,20 +9242,21 @@ a {
 }
 
 /* line 19, ../sass/layout/_layout.scss */
-.site-branding {
-  margin: 0 0 25px 0;
+#header.sticky {
+  margin-top: -52px;
 }
-/* line 21, ../sass/layout/_layout.scss */
+
+/* line 24, ../sass/layout/_layout.scss */
 .site-branding h1 {
   text-align: center;
 }
 
-/* line 27, ../sass/layout/_layout.scss */
+/* line 30, ../sass/layout/_layout.scss */
 #footer p {
   text-align: center;
 }
 
-/* line 32, ../sass/layout/_layout.scss */
+/* line 35, ../sass/layout/_layout.scss */
 .breadcrumb {
   margin-top: 13px;
   background-color: inherit;
@@ -9280,7 +9281,21 @@ a {
   display: inline-block;
 }
 
-/* line 24, ../sass/components/_menu.scss */
+/* line 25, ../sass/components/_menu.scss */
+#primary-menu .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 29, ../sass/components/_menu.scss */
+#primary-menu .navbar-default .active a {
+  border-radius: 20px;
+}
+/* line 34, ../sass/components/_menu.scss */
+#primary-menu .navbar {
+  margin-bottom: 9px;
+}
+
+/* line 40, ../sass/components/_menu.scss */
 .menu-inline {
   position: relative;
   list-style-type: none;

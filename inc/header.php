@@ -15,7 +15,7 @@ require_once 'functions.php';
 
 <body>
 
-<header id="header" class="site-header">
+<header id="header" class="site-header sticky">
 
     <div id="service-menu">
         <nav class="navbar navbar-default">
@@ -37,7 +37,7 @@ require_once 'functions.php';
                 <h1><?php echo $pagename;?></h1>
             </div>
 
-          <div class="primary-menu">
+          <div id="primary-menu">
             <nav class="navbar navbar-default">
 
                 <div class="container-fluid">
