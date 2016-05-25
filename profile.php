@@ -1,14 +1,14 @@
 <?php require_once 'inc/header.php';?>
 
 <div class="container">
-    <div class="row">
+        <div class="row">
 
-        <?php require 'parts/breadcrumb.php';?>
+            <?php require 'parts/breadcrumb.php';?>
 
-        <h1>Du er nu på profil siden. Aflever alle dine rewards.</h1>
+            <h1>Du er nu på profil siden. Aflever alle dine rewards.</h1>
 
+        </div>
     </div>
-</div>
 
 
 <?php require_once 'inc/footer.php';?>

@@ -21,9 +21,24 @@
 }
 
 .site-branding {
-  h1 {
-    text-align: center;
+  text-align: center;
+  margin-top: 10px;
+  img {
+    width: 40%;
   }
+  @media screen and (min-width: 480px) {
+    img {
+      width: 20%;
+    }
+  }
+
+}
+
+.fv-col {
+  padding-left: 7.5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26), 0px 2px 10px 0px rgba(0, 0, 0, 0.16) !important;
+  color: #222 !important;
 }
 
 #footer {
