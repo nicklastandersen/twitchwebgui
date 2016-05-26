@@ -1,6 +1,6 @@
 <?php require_once 'inc/header.php';?>
 
-    <div class="container">
+    <div class="container clearfix">
         <div class="row">
 
             <h1>Velkommen til Forsiden.</h1>

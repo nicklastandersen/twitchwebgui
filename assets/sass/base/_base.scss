@@ -1,7 +1,10 @@
 @import "variables";
 
 body {
-  padding: 200px 15px 30px;
+  padding: 170px 0 0 0;
+  @media screen and (min-width: 992px) {
+  padding: 200px 0 0 0;
+  }
   background-color: rgba(232, 232, 232, 0.21);
 }
 
@@ -12,3 +15,4 @@ a {
 h1 {
   font-size: $heading1;
 }
+
