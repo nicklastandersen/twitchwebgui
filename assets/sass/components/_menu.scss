@@ -35,7 +35,7 @@
     margin-bottom: 9px;
   }
   .navbar-brand {
-    color: #6441a5;
+    color: $brand-color;
   }
 }
 
@@ -47,3 +47,12 @@
   margin: 0;
 }
 
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav > li {
+    float: left;
+    margin-right: 9px;
+  }
+}

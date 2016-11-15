@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="weather-data" ng-show="true">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="">
+                    <h3>
+                        {{forecast.city.name | placeholder:'No City Chosen'}}, <a href="https://en.wikipedia.org/wiki/{{forecast.city.country | isoCountry}}">{{forecast.city.country | isoCountry}}</a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="fv-col">
+                    <div weather-panel="forecast" show-entry="forecast.list[0]"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

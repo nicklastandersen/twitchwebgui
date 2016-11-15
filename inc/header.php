@@ -1,16 +1,30 @@
 <?php
-$pagename = "Twitch Web GUI";
+$pagename = "PersonalWeather";
 
 require_once 'functions.php';
 
 ?>
 
 <!DOCTYPE html>
+<html ng-app="weatherApp" class="ng-scope">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $pagename; ?></title>
+    <title><?php echo $pagename; ?> | </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
+    <script src="assets/lib/iso-3166-country-codes-angular/iso-3166-country-codes-angular.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/controllers.js"></script>
+    <script src="assets/js/directives.js"></script>
+    <script src="assets/js/filters.js"></script>
+    <script src="assets/js/services.js"></script>
+
+
 </head>
 
 <body>
@@ -33,9 +47,10 @@ require_once 'functions.php';
     <div class="container">
         <div class="row">
             <div class="site-branding">
-                <a href="/">
-                    <img src="assets/images/Twitch_logo.png" alt="Twitch">
-                </a>            </div>
+                <a href="index.php">
+                    <img src="assets/images/logo.png" alt="PersonalWeather">
+                </a>
+            </div>
 
           <div id="primary-menu">
 

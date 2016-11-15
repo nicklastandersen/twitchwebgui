@@ -7,4 +7,4 @@
     o(), e(window).scroll(function() {
         o()
     })
-}(jQuery)
+}(jQuery);

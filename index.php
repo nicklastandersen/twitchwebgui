@@ -2,12 +2,9 @@
 
     <div class="container clearfix">
         <div class="row">
-
-            <h1>Velkommen til Forsiden.</h1>
+            <div ng-view></div>
 
         </div>
     </div>
-
-
 
 <?php require_once 'inc/footer.php';?>

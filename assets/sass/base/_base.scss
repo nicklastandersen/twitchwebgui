@@ -1,11 +1,11 @@
 @import "variables";
 
 body {
-  padding: 170px 0 0 0;
+  padding: 204px 0 0 0;
   @media screen and (min-width: 992px) {
-  padding: 200px 0 0 0;
+  padding: 240px 0 0 0;
   }
-  background-color: rgba(232, 232, 232, 0.21);
+  background: url(//s1.twnmm.com/images/en_ca/backgrounds/unified/cloudy_day.jpg) 50% 0px no-repeat rgb(38, 112, 175);
 }
 
 a {
@@ -16,3 +16,54 @@ h1 {
   font-size: $heading1;
 }
 
+img {
+  width: 100%;
+}
+
+
+#aside_news{
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26), 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  color: #222;
+  width: 200px;
+  padding: 30px;
+  background: #fff;
+}
+#aside_news p:first-child{
+  font: bold 14px Tahoma;
+  color: #000;
+}
+
+article{
+  background: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26), 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+article footer{
+  text-align: right;
+}
+
+#new_div {
+  display:-webkit-box;
+  -webkit-box-orient: horisontal;
+}
+
+
+#big_wrapper{
+  display: -webkit-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+
+}
+
+#main_section{
+  -webkit-box-flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26), 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  color: #222;
+}
